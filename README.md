@@ -4,10 +4,10 @@ tts_colab.ipynbは、事前にマウントしたxtts_v2_model.pthに指定され
 # Usage
 OneDrive内のxtts_v2_model.pthをGoogleDrive/マイドライブ内に移動させる。  
 google colabでtts_colab.ipynbを開く。  
-colab内のディスクドライブに学習させたいwavファイルをアップロードする。(ノイズがなく、なるべく鮮明な30秒ほどの音声が望ましい) 
+colab内のディスクドライブに学習させたいwavファイルをアップロードする。(ノイズが少なく、なるべく鮮明な30秒ほどの音声が望ましい) 
 
 ---
-![スクリーンショット 2024-06-21 205914](https://github.com/Watayu-silicon/text-to-speak/assets/105160299/4cb971ba-46d9-41cc-8a5e-b644e297cf01)
+![スクリーンショット 2024-06-21 205914](https://github.com/Watayu-silicon/text-to-speak/assets/105160299/2b8aa82d-753f-4d32-a534-d726d80e5dda)
 ---
 
 tts_colab.ipynb内のコードを順に実行していくと、ディスクドライブ内にoutput.wavが作成され、ダウンロードして聞くことができる。
